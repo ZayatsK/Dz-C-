@@ -7,9 +7,9 @@ Console.WriteLine("Введите число");
 string numAstr = Console.ReadLine();
 int numA = int.Parse(numAstr);
 
-if (numA <= 0)
+if (numA <= 1)
     {
-        Console.WriteLine("Введите число больше 0");
+        Console.WriteLine("Введите число больше 1");
     }
 
 for (int i = 1; i <= numA; i++)
