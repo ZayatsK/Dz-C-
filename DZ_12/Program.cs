@@ -13,7 +13,7 @@ int result = 0;
 
 if(numA> 99 || numA<-99 )
 {
-    result = Math.Abs(numA%100)%10;
+    result = Math.Abs(numA%100)%10; // Math.Abs модуль числа
     
     Console.WriteLine(result);
 }
@@ -21,3 +21,4 @@ if (numA>-100 && numA < 100)
 {
     Console.WriteLine("третьей цифры нет");
 } 
+
