@@ -13,9 +13,11 @@ int result = 0;
 
 if(numA> 99 || numA<-99 )
 {
-    result = (numA%100)%10;
+    result = Math.Abs(numA%100)%10;
+    
     Console.WriteLine(result);
 }
-if (numA<-999 || numA > 999)
+if (numA>-100 && numA < 100)
 {
     Console.WriteLine("третьей цифры нет");
+}
