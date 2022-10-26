@@ -20,4 +20,4 @@ if(numA> 99 || numA<-99 )
 if (numA>-100 && numA < 100)
 {
     Console.WriteLine("третьей цифры нет");
-}
+} 
